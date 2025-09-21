@@ -1,0 +1,4 @@
+FROM postgres:14-alpine
+ENV POSTGRES_DB=booksreg
+ENV POSTGRES_USER=smit
+ENV POSTGRES_PASSWORD=secret
